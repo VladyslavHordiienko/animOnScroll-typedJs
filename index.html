@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" offers="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta content="true" name="HandheldFriendly" />
+    <meta content="width" name="MobileOptimized" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <title>McAfee</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="./assets/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="./assets/jquery-3.6.0.min.js"></script>
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 3156716, hjsv: 6 };
+        a = o.getElementsByTagName('head')[0];
+        r = o.createElement('script');
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+  </head>
+  <body>
+    <!-- <section class="modal">
+    <div class="overlay">
+      <div class="modal__wrapper">
+        <div class="modal__body">
+          <div class="modal__title">
+            Your Apple Iphone may be infected!
+          </div>
+          <p class="modal__text">We assume that your OS may be viruses while browsing recently compromised websites.</p>
+          <div class="modal__row">
+            <div class="modal__imgwrap">
+              <img src="./assets/modal-icon.png" alt="" class="modal__img">
+              <p class="modal__text icon__text">Apple Inc.</p>
+            </div>
+            <p class="modal__text">We highly recommended to install a mobile security app, otherwise sensitive data such as your Facebook account, WhatsApp messages, photos and private apps could be infected and stolen</p>
+          </div>
+          <div class="modal__button">Check virus</div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+    <div class="wrapper">
+      <header class="header">
+        <div class="header-top">
+          <img src="./assets/McAfee.svg" alt="logo" class="header__logo" />
+          <nav class="header__nav">
+            <a href="#" class="header__nav-link">Comment</a>
+            <a href="#" class="header__nav-link">Carta McAfee</a>
+            <a href="#" class="header__nav-link">Aiuto e supporto</a>
+          </nav>
+        </div>
+        <img src="./assets/Banner_2.png" alt="banner" class="header__banner" />
+      </header>
+
+      <main class="main">
+        <section class="first-page" id="first-page">
+          <div class="first-page-top">
+            <h1 class="first-page-top__text" style="font-size: 1.5rem">
+              IL VOSTRO DISPOSITIVO È ALTAMENTE INFETTO! CONTROLLATE SE CI SONO PERDITE IL PRIMA
+              POSSIBILE!
+            </h1>
+          </div>
+          <form id="form" action="#" class="first-page-form anim-items not-hide">
+            <div class="first-page__line"></div>
+            <input
+              type="tel"
+              name="phone"
+              id="phone"
+              class="first-page__input"
+              inputmode="tel"
+              value="{var4}"
+              required
+            />
+            <div class="first-page__submit">
+              <button type="submit" class="styled-button first-page__button" id="checking-button">
+                controllo
+              </button>
+            </div>
+          </form>
+        </section>
+
+        <section class="second-page" id="second-page">
+          <h2 class="second-page__title">Verifica...</h2>
+          <div class="second-page__line"></div>
+          <div class="second-page-checking">
+            <p class="second-page-checking__text" id="checking-1">
+              Verifica del numero di telefono...
+            </p>
+            <div class="second-page-checking__animation">
+              <div
+                class="second-page-checking__animation-line second-page-checking__animation-line_green animation-line_green-1"
+              ></div>
+              <div class="second-page-checking__animation-line animation-line-1"></div>
+              <img
+                src="./assets/icon-check.png"
+                alt="ok"
+                class="second-page-checking__animation-image animation-image-1"
+              />
+            </div>
+          </div>
+          <div class="second-page-checking">
+            <p class="second-page-checking__text" id="checking-2">Identificazione...</p>
+            <div class="second-page-checking__animation">
+              <div
+                class="second-page-checking__animation-line second-page-checking__animation-line_green animation-line_green-2"
+              ></div>
+              <div class="second-page-checking__animation-line animation-line-2"></div>
+              <img
+                src="./assets/icon-check.png"
+                alt="ok"
+                class="second-page-checking__animation-image animation-image-2"
+              />
+            </div>
+          </div>
+          <div class="second-page-checking">
+            <p class="second-page-checking__text" id="checking-3">Ricerca nei database...</p>
+            <div class="second-page-checking__animation">
+              <div
+                class="second-page-checking__animation-line second-page-checking__animation-line_green animation-line_green-3"
+              ></div>
+              <div class="second-page-checking__animation-line animation-line-3"></div>
+              <img
+                src="./assets/icon-check.png"
+                alt="ok"
+                class="second-page-checking__animation-image animation-image-3"
+              />
+            </div>
+          </div>
+        </section>
+        <section class="third-page" id="third-page">
+          <div class="third-page-person__grid">
+            <div class="third-page-person__item">
+              <span
+                id="typed0"
+                class="third-page-person__text"
+                style="color: #00ff12; font-size: 0.95rem"
+              ></span>
+            </div>
+            <div class="third-page-person__item">
+              <span
+                class="third-page-person__text"
+                style="font-size: 1rem; color: #fcc304; margin-left: -24px; padding-left: 0px"
+              >
+                <ul id="typed1" style="list-style: none"></ul>
+              </span>
+            </div>
+            <div class="third-page-person__item">
+              <span
+                id="typed2"
+                class="third-page-person__text"
+                style="color: #00ff12; font-size: 0.95rem"
+              ></span>
+            </div>
+            <div class="third-page-person__item">
+              <span
+                id="typed3"
+                class="third-page-person__text"
+                style="font-size: 1.2rem; color: #fcc304"
+              ></span>
+            </div>
+            <div class="third-page-person__item">
+              <span
+                id="typed4"
+                class="third-page-person__text"
+                style="color: #00ff12; font-size: 0.95rem"
+              ></span>
+            </div>
+            <div class="third-page-person__item">
+              <span
+                id="typed5"
+                class="third-page-person__text"
+                style="font-size: 1.5rem; color: #fcc304"
+              ></span>
+            </div>
+            <div class="third-page-person__item">
+              <span
+                id="typed6"
+                class="third-page-person__text"
+                style="color: #00ff12; font-size: 0.95rem; padding-bottom: 10px"
+              ></span>
+            </div>
+            <div class="third-page-person__item">
+              <span
+                class="third-page-person__text"
+                style="padding: 10px 0px; color: #fcc304; margin-left: -23px; font-size: 1rem"
+              >
+                <ul id="typed7" style="list-style: none"></ul>
+              </span>
+            </div>
+          </div>
+          <h3
+            class="third-page__caption"
+            style="font-size: 1.7em; font-weight: bold; color: #00ff12"
+          >
+            Raccomandazioni forti per risolvere il problema dei virus:
+          </h3>
+          <ul class="third-page__text" style="color: #fcc306; font-size: 1.2rem">
+            <li class="align-left">non visitate siti dal nome sospetto</li>
+            <li class="align-left">cambiare le password almeno una volta al mese</li>
+            <li class="align-left">
+              Limitare il più possibile l'accesso per l'installazione di software sospetto
+            </li>
+            <li class="align-left" style="color: #00ff12">
+              installare solo antivirus di alta qualità!
+            </li>
+          </ul>
+          <h3
+            class="third-page__caption"
+            style="font-size: 1.7em; font-weight: bold; color: #00ff12"
+          >
+            McAfee è la migliore offerta!
+          </h3>
+          <p class="third-page__text" style="font-size: 1.4em">
+            La nostra sicurezza e la sicurezza dei vostri dati costa
+            <span style="color: #00ff12">solo 3,74 euro al mese</span> (o 44,88 euro all'anno)
+          </p>
+          <a
+            href="https://{trackingdomain}/click/?origin={origin}&amp;fbpixel={lander.param:fbpixel}"
+            class="styled-button third-page__button"
+            id="delete-button"
+            >Installare antivirus</a
+          >
+          <h3
+            class="third-page__caption"
+            style="font-size: 1.4em; border: 1px solid #fff; padding: 10px; color: #ff0000"
+          >
+            Un rimborso completo garantito al 100% nel caso in cui Antivirus non soddisfi le vostre
+            aspettative!
+          </h3>
+        </section>
+        <div class="benefits anim-items not-hide" style="margin: 2em 1.5em">
+          <div class="benefits__wrap">
+            <div class="benefits__item">
+              <img src="./assets/shield.png" alt="" />
+              <div class="benefits__title">Trusted security</div>
+              <div class="benefits__text">for over 600 million devices</div>
+            </div>
+            <div class="benefits__item">
+              <img src="./assets/graal.png" alt="" />
+              <div class="benefits__title">Highest rating</div>
+              <div class="benefits__text">for security by SE Labs</div>
+            </div>
+            <div class="benefits__item">
+              <img src="./assets/protect.png" alt="" />
+              <div class="benefits__title">42 million</div>
+              <div class="benefits__text">threats blocked per day</div>
+            </div>
+          </div>
+        </div>
+        <div class="third-page__protected-wrap anim-items not-hide" style="margin: 2em 1.5em">
+          <h3
+            class="third-page__caption third-page__protected-title"
+            style="font-size: 1.4em; margin: 0 1.5em"
+          >
+            Компании что нам доверяют
+          </h3>
+          <div class="third-page__protected">
+            <img src="./assets/whitehouse.jpg" alt="" />
+            <img src="./assets/amazon.png" alt="" />
+            <img src="./assets/bankofamerica.png" alt="" />
+            <img src="./assets/pfizer.png" alt="" />
+            <img src="./assets/verizon.svg" alt="" />
+            <img src="./assets/microsoft.jpg" alt="" />
+            <img src="./assets/apple.png" alt="" />
+            <img src="./assets/android.png" alt="" />
+          </div>
+        </div>
+        <div class="comments__wrap anim-items not-hide">
+          <h3 class="third-page__caption" style="font-size: 1.4em; margin: 0 1.5em">Commento</h3>
+          <div class="comments" style="margin: 1em 1.5em">
+            <div class="comments__item">
+              <img src="./assets/face1.jpg" alt="" class="comments__ava" />
+              <div class="comments__body">
+                <div class="comments__content">
+                  <div class="comments__name">Franca Casadio</div>
+                  <div class="comments__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid provident
+                    dolore quo blanditiis quibusdam eveniet corporis numquam. Suscipit reprehenderit
+                    ut maiores quae provident molestiae excepturi. Odio minima incidunt neque quasi.
+                  </div>
+                </div>
+                <div class="comments__bottom">
+                  <div class="comments__btns">
+                    <div class="blue">Like</div>
+                    <div>Reply</div>
+                    <div class="thin">4d</div>
+                  </div>
+                  <div class="comments__reaction">
+                    <img src="./assets/like.png" alt="" />
+                    <img src="./assets/heart.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="comments__item">
+              <img src="./assets/face2.jpg" alt="" class="comments__ava" />
+              <div class="comments__body">
+                <div class="comments__content">
+                  <div class="comments__name">Cesare Bordini</div>
+                  <div class="comments__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid provident
+                    dolore quo blanditiis quibusdam eveniet corporis numquam. Suscipit reprehenderit
+                    ut maiores quae provident molestiae excepturi. Odio minima incidunt neque quasi.
+                  </div>
+                </div>
+                <div class="comments__bottom">
+                  <div class="comments__btns">
+                    <div class="blue">Like</div>
+                    <div>Reply</div>
+                    <div class="thin">4d</div>
+                  </div>
+                  <div class="comments__reaction">
+                    <img src="./assets/like.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="comments__item">
+              <img src="./assets/face3.jpg" alt="" class="comments__ava" />
+              <div class="comments__body">
+                <div class="comments__content">
+                  <div class="comments__name">Fabiano Caroli</div>
+                  <div class="comments__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid provident
+                    dolore quo blanditiis quibusdam eveniet corporis numquam. Suscipit reprehenderit
+                    ut maiores quae provident molestiae excepturi. Odio minima incidunt neque quasi.
+                  </div>
+                </div>
+                <div class="comments__bottom">
+                  <div class="comments__btns">
+                    <div class="blue">Like</div>
+                    <div>Reply</div>
+                    <div class="thin">4d</div>
+                  </div>
+                  <div class="comments__reaction">
+                    <img src="./assets/like.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="comments__item">
+              <img src="./assets/face4.jpg" alt="" class="comments__ava" />
+              <div class="comments__body">
+                <div class="comments__content">
+                  <div class="comments__name">Antonella Tirello</div>
+                  <div class="comments__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid provident
+                    dolore quo blanditiis quibusdam eveniet corporis numquam. Suscipit reprehenderit
+                    ut maiores quae provident molestiae excepturi. Odio minima incidunt neque quasi.
+                  </div>
+                </div>
+                <div class="comments__bottom">
+                  <div class="comments__btns">
+                    <div class="blue">Like</div>
+                    <div>Reply</div>
+                    <div class="thin">4d</div>
+                  </div>
+                  <div class="comments__reaction">
+                    <img src="./assets/like.png" alt="" />
+                  </div>
+                </div>
+                <div class="comments__inputs">
+                  <input type="text" placeholder="Aggiungi un commento" class="comments__input" />
+                  <span>Aggiungi</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer-top">
+          <p class="footer-top__text">Prendetevi cura della vostra sicurezza</p>
+          <a
+            href="https://{trackingdomain}/click/?origin={origin}&fbpixel={lander.param:fbpixel}"
+            class="styled-button footer-top__button"
+            >Per saperne di più</a
+          >
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-bottom__image"></div>
+          <a
+            href="https://{trackingdomain}/click/?origin={origin}&fbpixel={lander.param:fbpixel}"
+            class="footer-bottom__text"
+            >Informazioni sulla protezione Web</a
+          >
+        </div>
+      </footer>
+    </div>
+
+    <div style="display: none">
+      <div class="popup-wrapper" id="popup-wrapper">
+        <div class="popup">
+          <h2 class="popup__title">È il vostro giorno fortunato</h2>
+          <p class="popup__text">
+            Giocattolo GRATUITO e 20% di sconto sul primo mese se si effettua l'epurazione oggi
+            stesso!
+          </p>
+          <div class="styled-button-block first-page__submit popup__button-block">
+            <a
+              href="https://{trackingdomain}/click/?origin={origin}&fbpixel={lander.param:fbpixel}"
+              class="styled-button first-page__button popup__button"
+              >Passo successivo</a
+            >
+          </div>
+          <div
+            class="popup__closer"
+            onclick="document.getElementById('popup-wrapper').style.display = 'none'; html.style.overflow = 'auto';"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+              <path
+                d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
